@@ -1,0 +1,122 @@
+/* Laptop */
+
+@media (max-width: 90em) {
+  body {
+    line-height: 1.5;
+  }
+
+  .treatment-box {
+    padding: 3rem;
+  }
+
+  .section-text {
+    grid-template-columns: 78% 22%;
+    padding: 2.5rem 1.5rem;
+    gap: 3px;
+  }
+
+  .unordered-list {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .hospital-images {
+    gap: 3rem;
+  }
+
+  .footer-aside {
+    right: 2%;
+    bottom: 9.5%;
+  }
+
+  .main-footer {
+    padding: 3rem;
+  }
+
+  .footer-img {
+    margin-right: 5rem;
+  }
+}
+
+/* 1024px (Responding to Laptops) */
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+
+  .info {
+    padding: 1rem 0;
+  }
+
+  .aafiya-logo {
+    height: 5rem;
+  }
+
+  .img-parent {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .number {
+    font-size: 1.5rem;
+  }
+
+  .call {
+    gap: 0;
+  }
+
+  .section-text {
+    grid-template-columns: 1fr;
+  }
+
+  .aside {
+    justify-self: center;
+    margin-top: 2.5rem;
+  }
+
+  .footer-aside {
+    bottom: 8%;
+  }
+
+  .img-footer {
+    grid-template-columns: 25% 50% 20%;
+    column-gap: 2rem;
+  }
+
+  .footer-img {
+    width: 100%;
+    align-self: center;
+  }
+}
+
+/* 768px (Responding to Tablet) */
+@media (max-width: 48em) {
+  .farhan{
+    display: none;
+  }
+
+  .res-dot{
+    display: block;
+  }
+}
+
+/* Below 544px  */
+@media (max-width: 34em) {
+  .hero-section {
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  .treatment-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .laptop, .call-icon,.mail-icon{
+    font-size: 2rem;
+  }
+
+  .aafiya-logo{
+    display: none;
+  }
+}
